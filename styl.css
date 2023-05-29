@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey&display=swap');
+*{
+    font-family: 'Marhey';
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+p{
+    font-size: larger;
+    color: #3f3d3d;
+    font-weight: bolder;
+}
+header{
+    height: 70px;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    padding: 10px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #FCBC2F;
+}
+.logo{
+    font-family: ALDHABI;
+    color: beige;
+    font-weight: bold;
+    font-size: 2.6em;
+    text-decoration: none;
+    padding-right: 50px;
+    margin-bottom: 0px;
+}
+.logo span{
+    font-family: ALDHABI;
+    color: rgb(143, 48, 48);
+}
+.navbar{
+    display: flex;
+    position: RE;
+}
+.navbar li{
+    list-style: none;
+    color:beige;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight:700 ;
+}
+.navbar a {
+    color:beige;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight:700 ;
+}
+.btn-ins{
+    padding: 5px 14px ;
+    background:rgb(143, 48, 48) ;
+    margin-top: -10px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    margin-right: 25px;
+}
+.btn-ins:hover{
+    background: rgb(83, 17, 14);
+    transition: ease-out;
+}
+header .navbar li a:hover{
+    color: rgb(143, 48, 48);
+    border-bottom: 2px solid rgb(143, 48, 48);
+}
+.banier{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pile-livres-fond-jaune-concept-education-rendu-3d.jpg);
+    background-size:cover;
+}
+.banier .contenu{
+    max-width: 70%;
+    text-align: center;
+}
+.search{
+    /*display: flex;*/
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    
+}
+.search input{
+    width: 500px;
+    align-items: center;
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.search i{
+    color: rgb(143, 48, 48);
+    padding-bottom: 10px;
+    position:fixed;
+    margin-left: 500px;
+    margin-top: 14px;
+}
+.banier .contenu h2{
+    color: rgb(143, 48, 48) ;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.contenu p:nth-child(2){
+    color: rgb(82, 80, 80);
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+.contenu p span{
+    color: rgb(143, 48, 48);
+    font-size: 1.4em;
+}
+.btn{
+    font-size: 1em;
+    color: beige;
+    background:rgb(143, 48, 48) ;
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+.btn:hover{
+    background: rgb(83, 17, 14);
+    transition: ease-out;
+    text-decoration: underline;
+    letter-spacing: 4px;
+}
+section{
+    padding: 100px;
+}
+.apropos{
+    background-color:#FCBC2F;
+    background-size: cover;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50{
+    width: 48%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.row .col50 h2{
+    margin-bottom: 20px;
+}
+.titre{
+    color:rgb(253, 252, 252);
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-left: 350px;
+}
+.titre span{
+    color: rgb(143, 48, 48);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.row .col50 p span{
+    color: rgb(143, 48, 48);
+    font-size: 1.4em;
+}
+.row .col50 p{
+    font-size: 1.3em;
+    max-width: 100%;
+    text-align: center;
+}
+.row .col50 img{
+    height: 450px;
+    width: 600px;
+    position: relative;
+
+}
+.menu{
+    margin-top: -100px;
+}
+.menu .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.menu .contenu .box{
+    width: 300px;
+    margin: 10px;
+    border: 20px solid #FCBC2F;
+    box-shadow: 20px 15px 35px rgba(143, 48, 48, 0.5);
+}
+.menu .contenu .box .inbox {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.menu .contenu .box .inbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.menu .contenu .box .text {
+    text-align: center;
+    font-weight: 300px;
+    color: rgb(143, 48, 48);
+}
+.menu .contenu .box .text a{
+    text-decoration:none ;
+    color: rgb(143, 48, 48);
+}
+.menu .contenu .box .text a:hover{
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: rgb(83, 17, 14);
+}
+.menu .contenu .box:hover{
+    letter-spacing: 2px;
+    width: 320px;
+}
+.menu .contenu .box .text h3{
+    font-weight: bolder;
+}
+.card {
+    width:600px;
+    height: 200px;
+    background-color:beige;
+    box-shadow: 20px 15px 35px rgba(143, 48, 48, 0.5);
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 30vh;
+    margin-left: 27%;
+    border:2px solid rgb(143, 48, 48);
+    display: none;
+    transform: translate(-50%,-50%);
+    transition: all 0.5s;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.dec {
+    width:600px;
+    height: 200px;
+    background-color:beige;
+    box-shadow: 20px 15px 35px rgba(143, 48, 48, 0.5);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 30vh;
+    margin-left: 27%;
+    border:2px solid rgb(143, 48, 48);
+    transform: translate(-50%,-50%);
+    
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.card .cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.srh{
+    font-size: 1em;
+    color: beige;
+    background:rgb(143, 48, 48);
+    padding: 3px 25px;
+    display: inline-block;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+.ferm{
+    font-size: 1em;
+    color: beige;
+    background:rgb(143, 48, 48);
+    padding: 3px 25px;
+    display: inline-block;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+.srh a{
+    text-decoration: none;
+    color: beige;
+    font-size: larger;
+    font-weight: bolder;
+}
+.ferm a{
+    text-decoration: none;
+    color: beige;
+    font-size: larger;
+    font-weight: bolder;
+}
+   
+ 
+.media{
+    list-style: none;
+    position: relative;
+    margin-top: -20%;
+    margin-left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
